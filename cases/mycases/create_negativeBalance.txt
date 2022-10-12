@@ -1,0 +1,11 @@
+# user 1
+#
+create user1 user1 -20
+quit
+*
+#
+# expected printouts for user 1
+#
+Failed to create user
+Goodbye
+*

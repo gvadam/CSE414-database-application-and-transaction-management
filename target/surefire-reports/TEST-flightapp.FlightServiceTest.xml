@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="flightapp.FlightServiceTest" time="86.093" tests="42" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="test.cases" value="cases/"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\adamg\OneDrive\Desktop\CSE414\cse414-hw5-stheera-adamg28\target\test-classes;C:\Users\adamg\OneDrive\Desktop\CSE414\cse414-hw5-stheera-adamg28\target\classes;C:\Users\adamg\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\adamg\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\adamg\.m2\repository\com\microsoft\sqlserver\mssql-jdbc\8.2.0.jre11\mssql-jdbc-8.2.0.jre11.jar;C:\Users\adamg\.m2\repository\org\mybatis\mybatis\3.5.4\mybatis-3.5.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk\bin"/>
+    <property name="sun.java.command" value="C:\Users\adamg\AppData\Local\Temp\surefire557288448632365577\surefirebooter18070795639830905345.jar C:\Users\adamg\AppData\Local\Temp\surefire557288448632365577 2020-02-26T13-02-35_542-jvmRun1 surefire16622303997723076728tmp surefire_012318023524431497295tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\adamg\OneDrive\Desktop\CSE414\cse414-hw5-stheera-adamg28\target\test-classes;C:\Users\adamg\OneDrive\Desktop\CSE414\cse414-hw5-stheera-adamg28\target\classes;C:\Users\adamg\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\adamg\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\adamg\.m2\repository\com\microsoft\sqlserver\mssql-jdbc\8.2.0.jre11\mssql-jdbc-8.2.0.jre11.jar;C:\Users\adamg\.m2\repository\org\mybatis\mybatis\3.5.4\mybatis-3.5.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\adamg"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\adamg\OneDrive\Desktop\CSE414\cse414-hw5-stheera-adamg28"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\adamg\AppData\Local\Temp\surefire557288448632365577\surefirebooter18070795639830905345.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.6+8-LTS"/>
+    <property name="user.name" value="adamg"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\adamg\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\adamg\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.6"/>
+    <property name="user.dir" value="C:\Users\adamg\OneDrive\Desktop\CSE414\cse414-hw5-stheera-adamg28"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Brackets\command;C:\MinGW\bin;C:\Program Files\MATLAB\R2019b\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk\bin;C:\apache-maven-3.6.3\bin;C:\Users\adamg\Anaconda3;C:\Users\adamg\Anaconda3\Library\mingw-w64\bin;C:\Users\adamg\Anaconda3\Library\usr\bin;C:\Users\adamg\Anaconda3\Library\bin;C:\Users\adamg\Anaconda3\Scripts;C:\Users\adamg\AppData\Local\Microsoft\WindowsApps;C:\Users\adamg\AppData\Local\Programs\Microsoft VS Code\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.6+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="runTest[0]" classname="flightapp.FlightServiceTest" time="2.966"/>
+  <testcase name="runTest[1]" classname="flightapp.FlightServiceTest" time="1.591"/>
+  <testcase name="runTest[2]" classname="flightapp.FlightServiceTest" time="3.189"/>
+  <testcase name="runTest[3]" classname="flightapp.FlightServiceTest" time="1.904"/>
+  <testcase name="runTest[4]" classname="flightapp.FlightServiceTest" time="0.496"/>
+  <testcase name="runTest[5]" classname="flightapp.FlightServiceTest" time="0.901"/>
+  <testcase name="runTest[6]" classname="flightapp.FlightServiceTest" time="2.411"/>
+  <testcase name="runTest[7]" classname="flightapp.FlightServiceTest" time="0.819"/>
+  <testcase name="runTest[8]" classname="flightapp.FlightServiceTest" time="4.703"/>
+  <testcase name="runTest[9]" classname="flightapp.FlightServiceTest" time="1.899"/>
+  <testcase name="runTest[10]" classname="flightapp.FlightServiceTest" time="5.072"/>
+  <testcase name="runTest[11]" classname="flightapp.FlightServiceTest" time="1.089"/>
+  <testcase name="runTest[12]" classname="flightapp.FlightServiceTest" time="2.934"/>
+  <testcase name="runTest[13]" classname="flightapp.FlightServiceTest" time="0.787"/>
+  <testcase name="runTest[14]" classname="flightapp.FlightServiceTest" time="1.545"/>
+  <testcase name="runTest[15]" classname="flightapp.FlightServiceTest" time="0.97"/>
+  <testcase name="runTest[16]" classname="flightapp.FlightServiceTest" time="2.954"/>
+  <testcase name="runTest[17]" classname="flightapp.FlightServiceTest" time="1.98"/>
+  <testcase name="runTest[18]" classname="flightapp.FlightServiceTest" time="1.673"/>
+  <testcase name="runTest[19]" classname="flightapp.FlightServiceTest" time="0.772"/>
+  <testcase name="runTest[20]" classname="flightapp.FlightServiceTest" time="0.462"/>
+  <testcase name="runTest[21]" classname="flightapp.FlightServiceTest" time="1.252"/>
+  <testcase name="runTest[22]" classname="flightapp.FlightServiceTest" time="1.043"/>
+  <testcase name="runTest[23]" classname="flightapp.FlightServiceTest" time="0.927"/>
+  <testcase name="runTest[24]" classname="flightapp.FlightServiceTest" time="2.107"/>
+  <testcase name="runTest[25]" classname="flightapp.FlightServiceTest" time="1.776"/>
+  <testcase name="runTest[26]" classname="flightapp.FlightServiceTest" time="1.733"/>
+  <testcase name="runTest[27]" classname="flightapp.FlightServiceTest" time="1.581"/>
+  <testcase name="runTest[28]" classname="flightapp.FlightServiceTest" time="1.627"/>
+  <testcase name="runTest[29]" classname="flightapp.FlightServiceTest" time="0.632"/>
+  <testcase name="runTest[30]" classname="flightapp.FlightServiceTest" time="0.713"/>
+  <testcase name="runTest[31]" classname="flightapp.FlightServiceTest" time="1.496"/>
+  <testcase name="runTest[32]" classname="flightapp.FlightServiceTest" time="2.961"/>
+  <testcase name="runTest[33]" classname="flightapp.FlightServiceTest" time="5.996"/>
+  <testcase name="runTest[34]" classname="flightapp.FlightServiceTest" time="2.9"/>
+  <testcase name="runTest[35]" classname="flightapp.FlightServiceTest" time="2.639"/>
+  <testcase name="runTest[36]" classname="flightapp.FlightServiceTest" time="2.244"/>
+  <testcase name="runTest[37]" classname="flightapp.FlightServiceTest" time="2.632"/>
+  <testcase name="runTest[38]" classname="flightapp.FlightServiceTest" time="2.023"/>
+  <testcase name="runTest[39]" classname="flightapp.FlightServiceTest" time="2.338"/>
+  <testcase name="runTest[40]" classname="flightapp.FlightServiceTest" time="3.413"/>
+  <testcase name="runTest[41]" classname="flightapp.FlightServiceTest" time="1.425"/>
+</testsuite>

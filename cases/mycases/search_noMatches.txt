@@ -1,0 +1,10 @@
+# user 1
+search "Seattle WA" "Boston MA" 1 32 1
+quit
+*
+#
+# expected printouts for user 1
+#
+No flights match your selection
+Goodbye
+*

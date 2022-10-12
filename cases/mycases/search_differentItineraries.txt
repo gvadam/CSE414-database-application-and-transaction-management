@@ -1,0 +1,34 @@
+# user 1
+create user1 user1 1000
+login user1 user1
+search "San Diego CA" "Houston TX" 1 2 2
+quit
+*
+#
+# expected printouts for user 1
+#
+Created user user1
+Logged in as user1
+Itinerary 0: 1 flight(s), 173 minutes
+ID: 544242 Day: 2 Carrier: WN Number: 2550 Origin: San Diego CA Dest: Houston TX Duration: 173 Capacity: 11 Price: 803
+Itinerary 1: 1 flight(s), 174 minutes
+ID: 98619 Day: 2 Carrier: CO Number: 1041 Origin: San Diego CA Dest: Houston TX Duration: 174 Capacity: 18 Price: 438
+Goodbye
+*
+# user 2
+create user2 user2 1000
+login user2 user2
+search "San Diego CA" "Houston TX" 1 3 2
+quit
+*
+#
+# expected printouts for user 1
+#
+Created user user2
+Logged in as user2
+Itinerary 0: 1 flight(s), 175 minutes
+ID: 94088 Day: 3 Carrier: CO Number: 606 Origin: San Diego CA Dest: Houston TX Duration: 175 Capacity: 7 Price: 358
+Itinerary 1: 1 flight(s), 181 minutes
+ID: 1038599 Day: 3 Carrier: WN Number: 384 Origin: San Diego CA Dest: Houston TX Duration: 181 Capacity: 13 Price: 516
+Goodbye
+*

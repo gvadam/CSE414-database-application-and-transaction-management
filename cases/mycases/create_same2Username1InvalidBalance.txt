@@ -1,0 +1,22 @@
+# Tests 2 terminals trying to create an account with the same username
+# One tries to put invalid amount into deposit, so fails. The other user
+# should succeed.
+#
+# Terminal 1
+create username pwd1 -5
+quit
+*
+# expected result for Terminal 1
+# Terminal 1 fails, Terminal 2 succeeds
+Failed to create user
+Goodbye
+*
+# Terminal 2
+create username pwd2 100
+quit
+*
+# expected result for Terminal 2
+# Terminal 1 fails, Terminal 2 succeeds
+Created user username
+Goodbye
+*
